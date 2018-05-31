@@ -31,10 +31,6 @@ class Fakultas extends CI_Controller {
 	function aksi_tambah() {
 		foreach ($this->input->post('data') as $key => $value) {
 			switch ($key) {
-				case 'password':
-					$data[$key] = hash('sha512', $value);
-					break;
-				
 				default:
 					$data[$key] = $value;
 					break;
