@@ -99,13 +99,13 @@ class Fakultas extends CI_Controller {
 
 	      $row = $this->db->query("SELECT count(*) total_data 
 	        FROM fakultas
-	        WHERE nama LIKE ?)", $cari)->row();
+	        WHERE nama LIKE ?", $cari)->row();
 
 	        $totalFiltered = $row->total_data; 
 
 	      $query = $this->db->query("SELECT *
 	        FROM fakultas
-	        WHERE nama LIKE ?)
+	        WHERE nama LIKE ?
 	        ORDER BY ". $columns[$requestData['order'][0]['column']]."   ".$requestData['order'][0]['dir']."   LIMIT ".$requestData['start']." ,".$requestData['length'], $cari);
 	            
 	    } else {  
