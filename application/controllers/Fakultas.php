@@ -56,20 +56,6 @@ class Fakultas extends CI_Controller {
 		redirect(base_url('fakultas'));
 	}
 
-	function aksi_ubah_password() {
-		foreach ($this->input->post('data') as $key => $value) {
-			$data[$key] = hash('sha512', $value);
-		}
-
-		foreach ($this->input->post('where') as $key => $value) {
-			$where[$key] = $value;
-		}
-
-		$this->db->update('fakultas', $data, $where);
-
-		redirect(base_url('fakultas'));
-	}
-
 	function aksi_hapus($id) {
 		$this->db->delete('fakultas', ['id' => $id]);
 
