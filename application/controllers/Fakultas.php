@@ -81,7 +81,7 @@ class Fakultas extends CI_Controller {
 	    $columns = ['nama'];
 
 	      $row = $this->db->query("SELECT count(*) total_data 
-	        FROM fakultas", [$this->session->id])->row();
+	        FROM fakultas", [])->row();
 
 	        $totalData = $row->total_data;
 	        $totalFiltered = $totalData; 
@@ -112,7 +112,7 @@ class Fakultas extends CI_Controller {
 
 	      $query = $this->db->query("SELECT *
 	        FROM fakultas
-	        ORDER BY ". $columns[$requestData['order'][0]['column']]."   ".$requestData['order'][0]['dir']."   LIMIT ".$requestData['start']." ,".$requestData['length'], [$this->session->id]);
+	        ORDER BY ". $columns[$requestData['order'][0]['column']]."   ".$requestData['order'][0]['dir']."   LIMIT ".$requestData['start']." ,".$requestData['length'], []);
 	            
 	    }
 
