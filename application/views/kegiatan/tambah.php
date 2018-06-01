@@ -18,6 +18,11 @@
             <label class="control-label">Nama Kegiatan</label>
             <input class="form-control" type="text" required placeholder="Masukan Nama Kegiatan" name="data[nama]">
           </div>
+          
+          <div class="form-group">
+            <label class="control-label">Lokasi Kegiatan</label>
+            <input class="form-control" type="text" required placeholder="Masukan Lokasi Kegiatan" name="data[lokasi]">
+          </div>
 
           <div class="form-group">
             <label class="control-label">Tingkat</label>
@@ -48,8 +53,8 @@
           <div class="form-group">
             <label class="control-label">Waktu Kegiatan</label>
             <input class="form-control" type="text" required placeholder="Masukan Waktu Kegiatan" id="waktuKegiatan">
-            <input type="hidden" name="data[tanggal_awal_lomba]" id="waktuAwal">
-            <input type="hidden" name="data[tanggal_akhir_lomba]" id="waktuAkhir">
+            <input type="hidden" name="data[tanggal_lomba_awal]" id="waktuAwal">
+            <input type="hidden" name="data[tanggal_lomba_akhir]" id="waktuAkhir">
           </div>
 
           <div class="form-group">

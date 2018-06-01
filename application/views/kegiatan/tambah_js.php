@@ -21,7 +21,9 @@ $(function() {
 	waktuKegiatan();
 
 	$("#taKegiatanAwal").val(new Date().getFullYear());
+	$("#taAwal").val($("#taKegiatanAwal").val());
 	$("#taKegiatanAkhir").val(parseInt(new Date().getFullYear()) + 1);
+	$("#taAkhir").val($("#taKegiatanAkhir").val());
 });
 
 function waktuKegiatan() {
@@ -50,7 +52,9 @@ function waktuKegiatan() {
 	        $("#semester").select2();
 
 			$("#taKegiatanAwal").val(parseInt(waktuAwal[2]) - 1);
+			$("#taAwal").val($("#taKegiatanAwal").val());
         	$("#taKegiatanAkhir").val(parseInt(waktuAwal[2]));
+        	$("#taAkhir").val($("#taKegiatanAkhir").val());
 	      } else {
 	        swal('ERROR !!!', 'Ada Kesalahan !!!', 'error');
 	      }
@@ -63,9 +67,11 @@ function waktuKegiatan() {
 
 $("#taKegiatanAwal").on('input', function() {
 	$("#taKegiatanAkhir").val(parseInt($("#taKegiatanAwal").val()) + 1);
+	$("#taAwal").val($("#taKegiatanAwal").val());
 });
 
 $("#taKegiatanAkhir").on('input', function() {
 	$("#taKegiatanAwal").val(parseInt($("#taKegiatanAkhir").val()) - 1);
+	$("#taAkhir").val($("#taKegiatanAkhir").val());
 });
 </script>
