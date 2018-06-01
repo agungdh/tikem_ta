@@ -16,7 +16,7 @@
           
           <div class="form-group">
             <label class="control-label">Prestasi</label>
-            <input class="form-control" type="text" required placeholder="Masukan Prestasi" name="data[Prestasi]">
+            <input class="form-control" type="text" required placeholder="Masukan Prestasi" name="data[prestasi]">
           </div>
           
           </div>

@@ -18,7 +18,7 @@
 
           <div class="form-group">
             <label class="control-label">Prestasi</label>
-            <input class="form-control" type="text" required placeholder="Masukan Prestasi" name="data[Prestasi]" value="<?php echo $data['prestasi']->prestasi; ?>">
+            <input class="form-control" type="text" required placeholder="Masukan Prestasi" name="data[prestasi]" value="<?php echo $data['prestasi']->prestasi; ?>">
           </div>
           
           </div>

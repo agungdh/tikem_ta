@@ -18,7 +18,7 @@
 
           <div class="form-group">
             <label class="control-label">Tingkat</label>
-            <input class="form-control" type="text" required placeholder="Masukan Tingkat" name="data[Tingkat]" value="<?php echo $data['tingkat']->tingkat; ?>">
+            <input class="form-control" type="text" required placeholder="Masukan Tingkat" name="data[tingkat]" value="<?php echo $data['tingkat']->tingkat; ?>">
           </div>
           
           </div>

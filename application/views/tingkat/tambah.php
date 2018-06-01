@@ -16,7 +16,7 @@
           
           <div class="form-group">
             <label class="control-label">Tingkat</label>
-            <input class="form-control" type="text" required placeholder="Masukan Tingkat" name="data[Tingkat]">
+            <input class="form-control" type="text" required placeholder="Masukan Tingkat" name="data[tingkat]">
           </div>
           
           </div>
