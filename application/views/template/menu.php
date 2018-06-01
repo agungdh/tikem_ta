@@ -13,3 +13,5 @@
 <li><a class="app-menu__item" href="<?php echo base_url('kategori'); ?>"><i class="app-menu__icon fa fa-gears"></i><span class="app-menu__label">Kategori</span></a></li>
 
 <li><a class="app-menu__item" href="<?php echo base_url('tingkat'); ?>"><i class="app-menu__icon fa fa-gears"></i><span class="app-menu__label">Tingkat</span></a></li>
+
+<li><a class="app-menu__item" href="<?php echo base_url('prestasi'); ?>"><i class="app-menu__icon fa fa-gears"></i><span class="app-menu__label">Prestasi</span></a></li>
