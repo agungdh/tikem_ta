@@ -1,4 +1,24 @@
 <script type="text/javascript">
+function stringBulan($int) {
+	var bulan = [
+		null,
+		'Januari',
+		'Februari',
+		'Maret',
+		'April',
+		'Mei',
+		'Juni',
+		'Juli',
+		'Agustus',
+		'September',
+		'Oktober',
+		'November',
+		'Desember'
+	];
+
+	return bulan[$int];
+}
+
 $(function() {
 	geser();
 });
@@ -24,7 +44,7 @@ function geser() {
 		}
 	}
 
-	$("valGanjil").text(nilai + ' - ' + nilai2);
+	$("valGanjil").text(stringBulan(nilai) + ' - ' + stringBulan(nilai2));
 
 	if (nilai2 == 12) {
 		nilai3 = 1;
@@ -42,6 +62,6 @@ function geser() {
 		}
 	}	
 
-	$("valGenap").text(nilai3 + ' - ' + nilai4);
+	$("valGenap").text(stringBulan(nilai3) + ' - ' + stringBulan(nilai4));
 }
 </script>
