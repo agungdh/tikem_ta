@@ -128,4 +128,8 @@ class Kegiatan extends CI_Controller {
 	    echo json_encode($json_data);  
 	  }
 
+	 function ajax_semester() {
+		echo json_encode(['semester_id' => $this->db->get_where('detil_semester', ['bulan' => $this->input->post('bulan')])->row()->semester_id]);
+	 }
+
 }

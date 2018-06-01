@@ -47,7 +47,7 @@
           
           <div class="form-group">
             <label class="control-label">Waktu Kegiatan</label>
-            <input class="form-control" type="text" required placeholder="Masukan Waktu Kegiatan" id="waktuKegiatan" name="data[nama]">
+            <input class="form-control" type="text" required placeholder="Masukan Waktu Kegiatan" id="waktuKegiatan">
             <input type="hidden" name="data[tanggal_awal_lomba]" id="waktuAwal">
             <input type="hidden" name="data[tanggal_akhir_lomba]" id="waktuAkhir">
           </div>
@@ -63,6 +63,14 @@
               }
               ?>              
             </select>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label">Tahun Ajar</label>
+            <input class="form-control" type="number" min="1900" max="2900" required placeholder="Masukan Tahun Ajar Awal" id="taKegiatanAwal">
+            <input class="form-control" type="number" min="1900" max="2900" required placeholder="Masukan Tahun Ajar Akhir" id="taKegiatanAkhir">
+            <input type="hidden" name="data[tahun_ajar_awal]" id="taAwal">
+            <input type="hidden" name="data[tahun_ajar_akhir]" id="taAkhir">
           </div>
 
           </div>
