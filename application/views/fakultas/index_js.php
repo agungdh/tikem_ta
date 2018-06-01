@@ -28,4 +28,6 @@ function hapus(id) {
         }
     });
 };
+
+$('body').tooltip({selector: '[data-toggle="tooltip"]'});
 </script>
