@@ -12,7 +12,7 @@ class Semester extends CI_Controller {
 		$data['isi'] = 'semester/index';
 		$data['js'] = 'semester/index_js';
 
-		$this->db->where('id', 1);
+		$this->db->where('semester_id', 1);
 		$this->db->order_by('bulan', 'ASC');
 		$data['data']['semester'] = $this->db->get('detil_semester')->row();
 
