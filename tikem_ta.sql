@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 31, 2018 at 05:33 PM
+-- Generation Time: Jun 01, 2018 at 06:46 AM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.2.5
 
@@ -54,7 +54,25 @@ INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES
 ('ld1i9753g356qiuu9m6aeao8gusv6dfd', '::1', 1527776758, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373737363436303b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
 ('crb4rrbanh6h2eccv2eb0oo3qagm0gnf', '::1', 1527777586, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373737373035343b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
 ('eam3enmprigniqn3jcor7q1mlkjj15q3', '::1', 1527777880, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373737373539303b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
-('p2ap2j2tak2eqscgl1e2lni01j2t2ddq', '::1', 1527779795, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373737393634303b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b);
+('p2ap2j2tak2eqscgl1e2lni01j2t2ddq', '::1', 1527779795, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373737393634303b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('3d4arh05svfu3oeklpoq0fer6vdo1vrd', '::1', 1527781802, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373738313634373b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('tvu7hmplu3rvckqd1dhk7mfbi474cc9j', '::1', 1527821603, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832313339313b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('q6j5aobme8v3do1rehjmhat08ftidg83', '::1', 1527821801, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832313734393b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('7fca3bopc9l0gf5elppeigkb5i7tpo08', '::1', 1527822385, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832323130393b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('1up45v649vmq3dtmtd47pb705j5ukjan', '::1', 1527822512, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832323432323b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('mk2sm0boct4vp3nvk42m96e6mkf2ao3k', '::1', 1527823277, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832323937383b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('dmpa6751t6kvp81np3tkr0jbp44988i8', '::1', 1527823581, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832333238323b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('0a61pncg3b7gg5cj6dj7hn030lk2ov9e', '::1', 1527823888, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832333539303b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('n0u3i7btp1aai13s1staa4jk45voo98e', '::1', 1527824215, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832333933343b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('m03uvgbevn3c9g84sd96s93a9orr21cr', '::1', 1527824478, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832343234393b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('g20g6ncimbb9cuo3scjiaf4i7lckkup0', '::1', 1527824640, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832343538313b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('so6slm7m1ka0jath446c3fcv4muq0iu5', '::1', 1527825172, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832343930303b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('9mm8ptcfjv2hv5503sdm5dlbijbtgbgr', '::1', 1527825587, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832353239323b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('5smn0bor58stck6bj7e80svdvq3q6efo', '::1', 1527825898, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832353632323b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('a3suh32er6jkevcdgjf3c6b4ok6d878e', '::1', 1527826283, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832353938343b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('4u5s5lenmrmm8pb8ort3g7m2oulaa834', '::1', 1527826306, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832363238353b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('ppa9hviq78rn13pvc05nv7hphddan9at', '::1', 1527826607, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832363630363b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6f67696e7c623a313b),
+('kqa0uri3ugid2htmlljbq10flq5l3cua', '::1', 1527827397, 0x5f5f63695f6c6173745f726567656e65726174657c693a313532373832373338323b69647c733a313a2231223b6e616d617c733a31333a2241646d696e6973747261746f72223b757365726e616d657c733a353a2261646d696e223b6c6576656c7c733a313a2231223b6c6f67696e7c623a313b);
 
 -- --------------------------------------------------------
 
@@ -77,6 +95,36 @@ INSERT INTO `config` (`judul_aplikasi`, `judul_menu`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `detil_semester`
+--
+
+CREATE TABLE `detil_semester` (
+  `id` int(11) NOT NULL,
+  `bulan` int(11) NOT NULL,
+  `semester_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `detil_semester`
+--
+
+INSERT INTO `detil_semester` (`id`, `bulan`, `semester_id`) VALUES
+(1, 7, 1),
+(2, 8, 1),
+(3, 9, 1),
+(4, 10, 1),
+(5, 11, 1),
+(6, 12, 1),
+(7, 1, 2),
+(8, 2, 2),
+(9, 3, 2),
+(10, 4, 2),
+(11, 5, 2),
+(12, 6, 2);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `fakultas`
 --
 
@@ -92,6 +140,28 @@ CREATE TABLE `fakultas` (
 INSERT INTO `fakultas` (`id`, `nama`) VALUES
 (1, 'Fakultas Teknik'),
 (5, 'fakultas kemplo');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `kategori`
+--
+
+CREATE TABLE `kategori` (
+  `id` int(11) NOT NULL,
+  `kategori` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `kategori`
+--
+
+INSERT INTO `kategori` (`id`, `kategori`) VALUES
+(1, 'Seni'),
+(2, 'Keagamaan'),
+(3, 'Olah Raga'),
+(4, 'Sains'),
+(5, 'Lain-lain');
 
 -- --------------------------------------------------------
 
@@ -138,6 +208,45 @@ INSERT INTO `prodi` (`id`, `nama`, `fakultas_id`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `semester`
+--
+
+CREATE TABLE `semester` (
+  `id` int(11) NOT NULL,
+  `semester` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `semester`
+--
+
+INSERT INTO `semester` (`id`, `semester`) VALUES
+(1, 'Ganjil'),
+(2, 'Genap');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tingkat`
+--
+
+CREATE TABLE `tingkat` (
+  `id` int(11) NOT NULL,
+  `tingkat` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tingkat`
+--
+
+INSERT INTO `tingkat` (`id`, `tingkat`) VALUES
+(1, 'Lokal'),
+(2, 'Nasional'),
+(3, 'Internasional');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `user`
 --
 
@@ -145,16 +254,17 @@ CREATE TABLE `user` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `nama` varchar(255) NOT NULL
+  `nama` varchar(255) NOT NULL,
+  `level` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`id`, `username`, `password`, `nama`) VALUES
-(1, 'admin', 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec', 'Administrator'),
-(12, 'egipsons', 'd404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db', 'Egipson A. W.');
+INSERT INTO `user` (`id`, `username`, `password`, `nama`, `level`) VALUES
+(1, 'admin', 'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec', 'Administrator', 1),
+(12, 'egipsons', 'd404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db', 'Egipson A. W.', 1);
 
 -- --------------------------------------------------------
 
@@ -214,9 +324,22 @@ ALTER TABLE `ci_sessions`
   ADD KEY `ci_sessions_timestamp` (`timestamp`);
 
 --
+-- Indexes for table `detil_semester`
+--
+ALTER TABLE `detil_semester`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `semester_id` (`semester_id`);
+
+--
 -- Indexes for table `fakultas`
 --
 ALTER TABLE `fakultas`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `kategori`
+--
+ALTER TABLE `kategori`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -224,6 +347,7 @@ ALTER TABLE `fakultas`
 --
 ALTER TABLE `mahasiswa`
   ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `nip` (`nip`),
   ADD KEY `prodi_id` (`prodi_id`);
 
 --
@@ -232,6 +356,18 @@ ALTER TABLE `mahasiswa`
 ALTER TABLE `prodi`
   ADD PRIMARY KEY (`id`),
   ADD KEY `fakultas_id` (`fakultas_id`);
+
+--
+-- Indexes for table `semester`
+--
+ALTER TABLE `semester`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tingkat`
+--
+ALTER TABLE `tingkat`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `user`
@@ -244,22 +380,46 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `detil_semester`
+--
+ALTER TABLE `detil_semester`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+--
 -- AUTO_INCREMENT for table `fakultas`
 --
 ALTER TABLE `fakultas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
+-- AUTO_INCREMENT for table `kategori`
+--
+ALTER TABLE `kategori`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT for table `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `prodi`
 --
 ALTER TABLE `prodi`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `semester`
+--
+ALTER TABLE `semester`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `tingkat`
+--
+ALTER TABLE `tingkat`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `user`
@@ -270,6 +430,12 @@ ALTER TABLE `user`
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `detil_semester`
+--
+ALTER TABLE `detil_semester`
+  ADD CONSTRAINT `detil_semester_ibfk_1` FOREIGN KEY (`semester_id`) REFERENCES `semester` (`id`);
 
 --
 -- Constraints for table `mahasiswa`
