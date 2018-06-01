@@ -69,4 +69,26 @@ function geser() {
 	$("#genap_awal").val(nilai3);
 	$("#genap_akhir").val(nilai4);
 }
+
+$('form').submit(function(e) {
+  e.preventDefault();
+  
+  $.ajax({
+    url: "<?php echo base_url('semester/aksi_ubah'); ?>",
+    type: 'post',
+    data: $('form').serialize(),
+    success: function(respone){ 
+      respon = JSON.parse(respone);
+
+      if (respon.success == true) {
+        swal('Berhasil !!!', 'Berhasil Simpan !!!', 'success');
+      } else {
+        swal('ERROR !!!', 'Ada Kesalahan !!!', 'error');
+      }
+    },
+    error: function(respone){
+      swal('ERROR !!!', 'Ada Kesalahan !!!', 'error');
+    }
+  });
+});
 </script>

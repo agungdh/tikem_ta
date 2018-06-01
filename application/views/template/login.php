@@ -92,7 +92,7 @@ $('form').submit(function(e) {
       }
     },
     error: function(respone){
-      console.log(respone);
+      swal('ERROR !!!', 'Ada Kesalahan !!!', 'error');
     }
   });
 });

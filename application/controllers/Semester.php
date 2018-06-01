@@ -64,7 +64,7 @@ class Semester extends CI_Controller {
 			$this->db->insert('detil_semester', ['bulan' => $item, 'semester_id' => 2]);
 		}
 
-		redirect(base_url('semester'));
+		echo json_encode(['success' => true]);
 	}
 
 }
