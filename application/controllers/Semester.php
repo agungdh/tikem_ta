@@ -9,20 +9,62 @@ class Semester extends CI_Controller {
 	function index() {
 		$data['isi'] = 'semester/index';
 		$data['js'] = 'semester/index_js';
-		$data['data']['semester'] = $this->db->get('semester')->row();
+
+		$this->db->where('id', 1);
+		$this->db->order_by('bulan', 'ASC');
+		$data['data']['semester'] = $this->db->get('detil_semester')->row();
 
 		$this->load->view('template/template', $data);
 	}
 
 	function aksi_ubah() {
-		foreach ($this->input->post('data') as $key => $value) {
-			$data[$key] = $value;
+		$this->db->truncate('detil_semester');
+
+		$nilai = $this->input->post('ganjil_awal');
+
+		$nilai2 = $nilai;
+
+		$data_ganjil = [];
+		$data_ganjil[] = (int)$nilai;
+		for ($i = 1; $i <= 5; $i++) { 
+			if ($nilai2 == 12) {
+				$nilai2 = 1;
+				$data_ganjil[] = $nilai2;
+			} else {
+				$nilai2++;
+				$data_ganjil[] = (int)$nilai2;
+			}
 		}
 
-		$this->db->truncate('detil_semester');
-		$this->db->insert('detil_semester', $data);
+		foreach ($data_ganjil as $item) {
+			$this->db->insert('detil_semester', ['bulan' => $item, 'semester_id' => 1]);
+		}
 
-		redirect(base_url());
+		if ($nilai2 == 12) {
+			$nilai3 = 1;
+		} else {
+			$nilai3 = $nilai2 + 1;
+		}
+
+		$nilai4 = $nilai3;
+
+		$data_genap = [];
+		$data_genap[] = (int)$nilai3;
+		for ($i = 1; $i <= 5; $i++) {
+			if ($nilai4 == 12) {
+				$nilai4 = 1;
+				$data_genap[] = $nilai4;
+			} else {
+				$nilai4++;
+				$data_genap[] = (int)$nilai4;
+			}
+		}	
+
+		foreach ($data_genap as $item) {
+			$this->db->insert('detil_semester', ['bulan' => $item, 'semester_id' => 2]);
+		}
+
+		redirect(base_url('semester'));
 	}
 
 }

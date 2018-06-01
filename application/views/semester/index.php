@@ -17,9 +17,15 @@
         
           <h3 class="tile-title">Semester</h3>
           
+          <input type="hidden" name="ganjil_awal" id="ganjil_awal">
+          <input type="hidden" name="ganjil_akhir" id="ganjil_akhir">
+
+          <input type="hidden" name="genap_awal" id="genap_awal">
+          <input type="hidden" name="genap_akhir" id="genap_akhir">
+
           <div class="form-group">
             <label for="formControlRange">Ganjil: <valGanjil></valGanjil></label>
-            <input type="range" class="form-control-range" min="1" max="12" id="formControlRange">
+            <input type="range" class="form-control-range" min="1" max="12" value="<?php echo $data['semester'] != null ? $data['semester']->bulan : '1' ?>" id="formControlRange">
             <label for="formControlRange">Genap: <valGenap></valGenap></label>
           </div>
 

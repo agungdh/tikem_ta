@@ -45,6 +45,9 @@ function geser() {
 	}
 
 	$("valGanjil").text(stringBulan(nilai) + ' - ' + stringBulan(nilai2));
+	$("#ganjil_awal").val(nilai);
+	$("#ganjil_akhir").val(nilai2);
+
 
 	if (nilai2 == 12) {
 		nilai3 = 1;
@@ -63,5 +66,7 @@ function geser() {
 	}	
 
 	$("valGenap").text(stringBulan(nilai3) + ' - ' + stringBulan(nilai4));
+	$("#genap_awal").val(nilai3);
+	$("#genap_akhir").val(nilai4);
 }
 </script>
